@@ -31,7 +31,7 @@ The advantages of code-nesting include:
  - two
  - three
 
-By contrast, **Da3SH** treats all code as data.
+By contrast, instead of nesting code-within-code, **Da3SH** treats all code as data.
 
 By employing JSON as a "common data-serialization format", **Da3SH** allows for:
 
