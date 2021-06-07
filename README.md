@@ -5,7 +5,7 @@
 
 Da3SH is an approach to web architecture in which core web languages (HTML, CSS, Javascript, SVG, PHP etc.) are all serialized as JSON (and deserialized from JSON).
 
-Being JSON-based, Da3SH offers a technology-agnostic alternative to established JS-first and HTML-first trends in web architecture in which one or more core web languages are nested within a different core web language.
+Being JSON-based, Da3SH offers a technology-agnostic alternative to established web-architecture trends in which one or more core web languages are nested within a different core web language.
 
 In the late 1990s and early 2000s, the nest-language was HTML:
 
