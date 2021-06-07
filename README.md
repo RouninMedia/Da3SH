@@ -22,8 +22,8 @@ Whenever core code is nested inside other core code like this - where each uses 
 The disadvantages of code-nesting approaches include:
 
  - code-nesting brings everything together, breaking the classic separation of concerns (*structure*, *presentation*, *behaviour*)
- - two
- - three
+ - complex toolchain / build setups may be required to make code-nested files possible
+ - maintaining something like CSS in JS can quickly become a much larger headache than maintaining a standard CSS stylesheet
 
 The advantages of code-nesting include:
 
