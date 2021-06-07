@@ -19,15 +19,15 @@ In the 2010s, increasingly, it was Javascript:
 
 Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the end result may be a large, awkward and unwieldy mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* are difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
 
-The disadvantages of code-nesting approaches are:
+The disadvantages of code-nesting approaches include:
 
- - code-nesting breaks the classic separation of concerns (*structure*, *presentation*, *behaviour*)
+ - code-nesting brings everything together, breaking the classic separation of concerns (*structure*, *presentation*, *behaviour*)
  - two
  - three
 
 The advantages of code-nesting include:
 
- - all HTML, JS and CSS code in a single file enables portable, re-usable, extensible rich components
+ - keeping all HTML, JS and CSS code in a single file enables portable, re-usable, extensible rich components
  - two
  - three
 
