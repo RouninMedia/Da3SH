@@ -40,8 +40,7 @@ Most importantly, **Da3SH** moves away from code-nesting and back to clean separ
 
 **Da3SH** means that a rich web component containing any or all of Markup, Styles, Scripts, Data and even Vectors may be exported as **a consistently-formatted, single file** but **core code is never nested within other core code**.
 
-
-We can have the best of both worlds - a page divided into separate rich components and each rich component divided into fully separated, static (or dynamically-generated) classic concerns:
+We *can* have the best of both worlds - a website or Single Page App (SPA) divided into separate rich components and each rich component divided into fully separated, static (or dynamically-generated) classic concerns:
 
  - *HTML-based structure*
  - *CSS-based presentation*
