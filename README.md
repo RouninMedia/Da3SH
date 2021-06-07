@@ -39,3 +39,12 @@ By, instead, employing JSON as a "common serialization format", Da3SH allows for
 Most importantly, **Da3SH** moves away from code-nesting and back to clean separation of technologies.
 
 **Da3SH** means that a rich web component containing any or all of Markup, Styles, Scripts, Data and even Vectors may be exported as **a consistently-formatted, single file** but **core code is never nested within other core code**.
+
+
+We can have the best of both worlds - a page divided into separate rich components and each rich component divided into fully separated, static (or dynamically-generated) classic concerns:
+
+ - *HTML-based structure*
+ - *CSS-based presentation*
+ - *JS-based behaviour*
+ - *SVG-based vector graphics*
+ - *JSON-based data*
