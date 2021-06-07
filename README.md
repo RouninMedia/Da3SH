@@ -21,13 +21,13 @@ Whenever core code is nested inside other core code like this - where each uses 
 
 The disadvantages of historical approaches to code-nesting are:
 
- - one
+ - breaks the classic separation of concerns (*structure*, *presentation*, *behaviour*)
  - two
  - three
 
 The advantages - and the reason why code-nesting persists:
 
- - one
+ - portable, re-usable, extensible rich components
  - two
  - three
 
