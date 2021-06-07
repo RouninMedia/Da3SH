@@ -17,9 +17,9 @@ In the 2010s, increasingly, it was Javascript:
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the end result may be a large, awkward and unwieldy mixed-mudball of code, in which concerns like *structure*, *presentation* and *behaviour* are difficult to isolate and deal with separately.
+Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the end result may be a large, awkward and unwieldy mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* are difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
 
-The disadvantages of historical approaches to code-nesting are:
+The disadvantages of code-nesting approaches are:
 
  - breaks the classic separation of concerns (*structure*, *presentation*, *behaviour*)
  - two
