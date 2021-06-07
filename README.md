@@ -25,7 +25,7 @@ The disadvantages of code-nesting approaches are:
  - two
  - three
 
-The advantages - and the reason why code-nesting persists:
+The advantages of code-nesting include:
 
  - all HTML, JS and CSS code in a single file enables portable, re-usable, extensible rich components
  - two
