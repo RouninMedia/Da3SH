@@ -13,7 +13,7 @@ It turns out that *everything-as-JSON* - despite superficial first appearances -
 
 ## The Rise of Component-based Architecture alongside Frameworks
 
-The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out its place amongst the schools of web-architecture.
+Component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out its place amongst the established paradigms of web-architecture.
 
 But, being based on Javascript, 2010s-style component-based web architecture evolved with excessive and needless baggage, not least the reintroduction of *code-nesting*.
 
