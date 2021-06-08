@@ -28,6 +28,12 @@ In contrast and at all times, Da3SH maintains a separation between *HTML-based s
 
 A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
 
+## Improving on Component-based architecture
+
+The new paradigm of component-based web architecture which evolved in the 2010s has defined its place amongst the schools of web-architecture.
+
+But 2010s-style component-based web architecture evolved with a lot of needless baggage, not least code-nesting.
+
 The disadvantages of code-nesting approaches include:
 
  - complex toolchain / boilerplate / build setups may be required to even create an environment which make code-nested files possible
