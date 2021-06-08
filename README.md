@@ -33,6 +33,8 @@ Whenever core code is nested inside other core code like this - where each uses 
 
 ## Improving on Component-based architecture
 
+We shouldn't wish to throw the baby out with the bathwater.
+
 The disadvantages of 2010s web-development approaches include:
 
  - complex toolchain / boilerplate / build setups may be required to even create an environment which make code-nested files possible
