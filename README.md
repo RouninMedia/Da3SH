@@ -1,9 +1,11 @@
 # Da3SH
-*Rich Components for the Web, liberated from JS-first Front-end Reactive Frameworks*
+*Rich Components for the Web, liberated from JS Frameworks*
 
 ## What is Da3SH?
 
-Da3SH is an approach to web architecture in which core web languages (HTML, CSS, Javascript, SVG, PHP etc.) are all serialized as JSON and stored as data. Whenever needed, each core web language can be unpacked from JSON, either on the server-side or on the front-end (client-side).
+Da3SH is an approach to component-based web architecture in which core web languages (HTML, CSS, Javascript, SVG, PHP etc.) are all serialized as JSON and stored as data. Whenever needed, each core web language can be unpacked from JSON, either on the server-side or on the front-end (client-side).
+
+This liberates the components from JS-first Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
 Since it's based on JSON, Da3SH offers a technology-agnostic alternative to established web-architecture trends in which one or more core web languages are nested within a different core web language.
 
