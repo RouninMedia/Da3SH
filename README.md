@@ -102,4 +102,4 @@ What if *all* we want is plain and simple HTML + CSS with an occasional slice of
 That's **Da3SH**.
 
 ## Don't WebComponents already exist?
-WebComponents do exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. 
+WebComponents *do* exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. Further, WebComponents will not work in javascript-disabled browsers, whereas, if required, technology-agnostic **Da3SH** allows developers to build javascript-free websites.
