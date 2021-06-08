@@ -7,7 +7,7 @@ Da3SH is an approach to component-based web architecture in which various snippe
 
 Whenever needed, one or more core web language snippets can be unpacked from the JSON, on the server-side or on the front-end (client-side).
 
-This approach allows different technologies to sit together collectively as components, but liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
+This approach allows different technologies to sit together collectively as components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
 As we will see, *everything-as-JSON* turns out - despite superficial first appearances - to be quite different from *everything-in-JS*.
 
