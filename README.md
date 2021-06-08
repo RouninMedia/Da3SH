@@ -12,10 +12,11 @@ This approach allows different technologies to sit together collectively as comp
 It turns out that *everything-as-JSON* - despite superficial first appearances - is quite different from *everything-in-JS*.
 
 ## Component-based Architecture is good. But it doesn't need Frameworks.
+Component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture paradigms.
 
-Component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out its place amongst the established paradigms of web-architecture.
+But, arriving as a feature of the Javascript-first frameworks, 2010s-style component-based web architecture incorporated excessive and needless baggage.
 
-But, being based on Javascript, 2010s-style component-based web architecture evolved with excessive and needless baggage, not least the reintroduction of *code-nesting*.
+Not least the reintroduction of *code-nesting*.
 
 *Code-nesting* refers to a web-architecture pattern in which one or more core web languages are nested within a different core web language.
 
@@ -41,8 +42,7 @@ Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structur
     </BODY>
 
 ## Improving on Component-based architecture
-
-We shouldn't seek to throw the baby out with the bathwater.
+In the context of building a conventional website, frameworks may represent exasperating over-engineering. But we shouldn't seek to throw the baby out with the bathwater: components remain entirely useful.
 
 The disadvantages of 2010s web-development approaches include:
 
