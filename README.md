@@ -68,7 +68,7 @@ By employing JSON as a "common data-serialization format", **Da3SH** allows for:
 
 Most importantly, **Da3SH** retreats from code-nesting and moves back to clean separation of technologies.
 
-Instead, Da3SH offers code-as-data: a language-agnostic alternative to code-within-code.
+Instead, Da3SH offers code-as-data: a framework-agnostic, language-agnostic alternative to code-within-code.
 
 Consequently,
 
@@ -100,4 +100,4 @@ What if *all* we want is a plain and simple HTML + CSS website with an occasiona
 That's **Da3SH**.
 
 ## Don't WebComponents already exist?
-WebComponents *do* exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. Further, WebComponents will not work in javascript-disabled browsers, whereas, if required, language-agnostic **Da3SH** allows developers to build javascript-free websites.
+WebComponents *do* exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. Further, WebComponents will not work in javascript-disabled browsers, whereas, if required, framework-agnostic, language-agnostic **Da3SH** allows developers to build javascript-free websites.
