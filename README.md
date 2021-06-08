@@ -97,7 +97,7 @@ We *can* have the best of both worlds:
    - *SVG-based vector graphics*
    - *JSON-based data*
 
-What if *all* we want is plain and simple HTML + CSS with an occasional slice of JS to enable interactivity... *but* we want to be able to deploy shareable, reusable, easy-to-modify but pre-constructed building blocks within that environment-of-simplicity?
+What if *all* we want is a plain and simple HTML + CSS website with an occasional slice of JS to enable interactivity... *but* in building that website we want to be able to deploy shareable, reusable, easy-to-modify but pre-constructed building blocks within that environment-of-simplicity?
 
 That's **Da3SH**.
 
