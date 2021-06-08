@@ -9,7 +9,7 @@ Whenever needed, each core web language can be unpacked from JSON, on the server
 
 This liberates the components from JS-first Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
-## The Rise of Components alongside Frameworks
+## The Rise of Component-based Architecture alongside Frameworks
 
 The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the giant Front-End Frameworks - has defined its place amongst the schools of web-architecture.
 
@@ -35,7 +35,8 @@ The disadvantages of 2010s web-development approaches include:
 
  - complex toolchain / boilerplate / build setups may be required to even create an environment which make code-nested files possible
  - code-nesting brings everything together, breaking the classic separation of concerns (*structure*, *presentation*, *behaviour*)
- - maintaining something like CSS in JS can quickly become a much larger headache than maintaining a standard CSS stylesheet
+ - maintaining something like CSS in JS can quickly become a much larger headache than maintaining a standard, simple CSS stylesheet
+ - additionally, future maintenance of dependencies and sub-dependencies (accounting for breaking versions etc.) can quickly become a nightmare (see: https://blog.jim-nielsen.com/2020/cheating-entropy-with-native-web-tech/)
 
 *But*, the advantages of component-based-architecture include:
 
