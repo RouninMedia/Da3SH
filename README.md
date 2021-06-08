@@ -1,5 +1,5 @@
 # Da3SH
-*Rich Components for the Web, liberated from JS Frameworks*
+*Rich Components for the Web, liberated from Front-End Frameworks*
 
 ## What is Da3SH?
 
@@ -91,3 +91,6 @@ We *can* have the best of both worlds:
 What if *all* we want is plain and simple HTML + CSS with an occasional slice of JS to enable interactivity... *but* we want to be able to deploy shareable, reusable, easy-to-modify but pre-constructed building blocks within that environment-of-simplicity?
 
 That's **Da3SH**.
+
+## Don't WebComponents already exist?
+WebComponents do exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. 
