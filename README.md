@@ -27,7 +27,7 @@ In the 2010s, increasingly, it was Javascript:
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
+Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
 ## Improving on Component-based architecture
 
