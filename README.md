@@ -11,7 +11,7 @@ This approach allows different technologies to sit together collectively as comp
 
 ## The Rise of Component-based Architecture alongside Frameworks
 
-The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the giant Front-End Frameworks - has defined its place amongst the schools of web-architecture.
+The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has defined its place amongst the schools of web-architecture.
 
 But, being based on Javascript, 2010s-style component-based web architecture evolved with needless baggage, not least the reintroduction of *code-nesting*.
 
