@@ -68,11 +68,9 @@ By employing JSON as a "common data-serialization format", **Da3SH** allows for:
 
 Most importantly, **Da3SH** retreats from code-nesting and moves back to clean separation of technologies.
 
+Instead, Da3SH offers code-as-data: a language-agnostic alternative to code-within-code.
 
-
-
-
-Consequently, Da3SH offers a technology-agnostic alternative to code-within-code.
+Consequently,
 
 Da3SH operates simultaneously in two conceptual dimensions:
 
