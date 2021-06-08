@@ -9,6 +9,8 @@ Whenever needed, one or more core web language snippets can be unpacked from the
 
 This approach allows different technologies to sit together collectively as components, but liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
+As we will see, *everything-as-JSON* turns out to be quite different from *everything-in-JS*.
+
 ## The Rise of Component-based Architecture alongside Frameworks
 
 The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has defined its place amongst the schools of web-architecture.
