@@ -7,7 +7,7 @@ Da3SH is an approach to component-based web architecture in which core web langu
 
 Whenever needed, each core web language can be unpacked from JSON, on the server-side or on the front-end (client-side).
 
-This liberates the components from JS-first Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
+This approach allows different technologies to sit together collectively as components, but liberates those components from JS-first Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
 ## The Rise of Component-based Architecture alongside Frameworks
 
