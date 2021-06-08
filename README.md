@@ -11,11 +11,11 @@ This liberates the components from JS-first Front-end Reactive Frameworks like *
 
 ## The Rise of Components alongside Frameworks
 
-The paradigm of component-based web architecture - which evolved in the 2010s as the giant Front-End Frameworks emerged - has defined its place amongst the schools of web-architecture.
+The paradigm of component-based web architecture - which evolved in the 2010s alongside the rise of the giant Front-End Frameworks - has defined its place amongst the schools of web-architecture.
 
-But 2010s-style component-based web architecture evolved with a lot of needless baggage, not least the reintroduction of *code-nesting*.
+But, being based on Javascript, 2010s-style component-based web architecture evolved with needless baggage, not least the reintroduction of *code-nesting*.
 
-*Code-nesting* is a term which refers to web-architecture trends in which one or more core web languages are nested within a different core web language.
+*Code-nesting* refers to web-architecture patterns in which one or more core web languages are nested within a different core web language.
 
 In the late 1990s and early 2000s, the nest-language was HTML:
 
@@ -27,15 +27,7 @@ In the 2010s, increasingly, it was Javascript:
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the end result may be a large, awkward and unwieldy mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
-
-
-## What makes Da3SH different?
-In contrast, since it's based on JSON and regards all code as data, Da3SH offers a technology-agnostic alternative to code-within-code.
-
-Da3SH maintains, at all times, a separation between *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour*.
-
-A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
+Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward and unwieldy mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
 
 ## Improving on Component-based architecture
 
@@ -50,6 +42,13 @@ The disadvantages of 2010s web-development approaches include:
  - keeping all HTML, JS and CSS code together in a single file (ie. *component-based* separation of concerns) enables portable, re-usable, extensible rich components
  - within components, it's easier to keep track of which classes and data-attributes need to be kept and which may be altered or removed
  - three
+
+## What makes Da3SH different?
+In contrast, since it's based on JSON and regards all code as data, Da3SH offers a technology-agnostic alternative to code-within-code.
+
+Da3SH maintains, at all times, a separation between *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour*.
+
+A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
 
 By contrast, instead of nesting code-within-code, **Da3SH** treats all code as data.
 
