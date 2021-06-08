@@ -11,7 +11,7 @@ This approach allows different technologies to sit together collectively as comp
 
 It turns out that *everything-as-JSON* - despite superficial first appearances - is quite different from *everything-in-JS*.
 
-## The Rise of Component-based Architecture alongside Frameworks
+## Component-based Architecture is good. But it doesn't need Frameworks.
 
 Component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out its place amongst the established paradigms of web-architecture.
 
