@@ -21,14 +21,14 @@ Whenever core code is nested inside other core code like this - where each uses 
 
 The disadvantages of code-nesting approaches include:
 
+ - complex toolchain / boilerplate / build setups may be required to even create an environment which make code-nested files possible
  - code-nesting brings everything together, breaking the classic separation of concerns (*structure*, *presentation*, *behaviour*)
- - complex toolchain / build setups may be required to make code-nested files possible
  - maintaining something like CSS in JS can quickly become a much larger headache than maintaining a standard CSS stylesheet
 
 The advantages of code-nesting include:
 
- - keeping all HTML, JS and CSS code in a single file enables portable, re-usable, extensible rich components
- - two
+ - keeping all HTML, JS and CSS code together in a single file (ie. *component-based* separation of concerns) enables portable, re-usable, extensible rich components
+ - within components, it's easier to keep track of which classes and data-attributes need to be kept and which may be altered or removed
  - three
 
 By contrast, instead of nesting code-within-code, **Da3SH** treats all code as data.
