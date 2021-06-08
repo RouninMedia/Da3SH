@@ -1,5 +1,5 @@
 # Da3SH
-*Rich Components liberated from JS Frameworks*
+*Rich Components for the Web, liberated from JS Frameworks*
 
 ## What is Da3SH?
 
