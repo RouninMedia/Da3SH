@@ -31,6 +31,15 @@ In the 2010s, increasingly, the nest-language was Javascript:
 
 Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
+Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structure and presentation together, it does so using only one syntax:
+
+    <BODY BGCOLOR="#FFFFFF">
+     <CENTER>
+      <H1>This is HTML 3.2</H1>
+      <P>It handles presentation without CSS.</P>
+     </CENTER>
+    </BODY>
+
 ## Improving on Component-based architecture
 
 We shouldn't seek to throw the baby out with the bathwater.
