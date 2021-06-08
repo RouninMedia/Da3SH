@@ -24,7 +24,9 @@ In the 2010s, increasingly, it was Javascript:
 
 Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the end result may be a large, awkward and unwieldy mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and deal with separately without a suite of task-runners, compilers, transpilers operating at build-time (and sometimes even at runtime).
 
-In contrast, Da3SH maintains a separation at all times between *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour*. A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
+In contrast and at all times, Da3SH maintains a separation between *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour*.
+
+A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
 
 The disadvantages of code-nesting approaches include:
 
