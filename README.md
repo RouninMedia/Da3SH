@@ -1,36 +1,42 @@
 # Da3SH
-*Rich Components for the Web, liberated from Front-End Frameworks*
+*Rich Components for the Web. Free from Front-End Frameworks*
 
 ## What is Da3SH?
 
-Da3SH is an approach to component-based web architecture in which various snippets of core web languages (HTML, CSS, Javascript, SVG, PHP etc.) are each serialized as JSON, with the snippets stored together in the same single piece of JSON-encoded data.
+Da3SH is component-based web architecture. But, unlike most other component-based web architecture approaches, Da3SH takes code and encodes it as data.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON, on the server-side or on the front-end (client-side).
+Da3SH serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
+
+Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen on the server-side or on the front-end / client-side.
 
 This approach allows different technologies to sit together collectively as components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
-It turns out that *everything-as-JSON* - despite superficial first appearances - is quite different from *everything-in-JS*.
+And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
-## Component-based Architecture is good. But it doesn't need Frameworks.
-Component-based web architecture - which evolved in the 2010s alongside the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture paradigms.
+## Component-based Architecture is good. But it doesn't *need* Frameworks.
+Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
-But, arriving as a feature of the Javascript-first frameworks, 2010s-style component-based web architecture incorporated excessive and needless baggage.
+But. As a core feature of the Javascript-first frameworks, 2010s-style component-based web architecture has tended to incorporate excessive, unnecessary baggage.
 
-Not least the reintroduction of *code-nesting*.
+Most of all: the reintroduction of *code-nesting*.
 
-*Code-nesting* refers to a web-architecture pattern in which one or more core web languages are nested within a different core web language.
+*Code-nesting* refers to when one or more core web languages are nested within a different core web language.
 
-In the late 1990s and early 2000s, the nest-language was HTML:
+In the late 1990s and early 2000s, code-nesting was common and the nest-language was HTML:
 
  - *HTML-inlined JS*
  - *HTML-inlined CSS*
 
-In the 2010s, increasingly, the nest-language was Javascript:
+Emphasis on a *Separation of Concerns*, *scalable CSS* and *Unobtrusive Javascript* led to an improved landscape by the late 2000s. 
+
+But in the 2010s code-nesting returned. This time the nest-language was Javascript:
 
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-Whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
+There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but are less familiar with CSS). One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, presentation or enabling behaviour across the entire live web document.
+
+From an overview perspective, there is something in this. But the fact remains: whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
 Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structure and presentation together, it does so using only one syntax:
 
@@ -40,9 +46,13 @@ Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structur
       <P>It handles presentation without CSS.</P>
      </CENTER>
     </BODY>
+    
+And, in any case, who said we had to have one or the other? Why can't a page be separated into page components and each page component be separated into technologies. That's not going to be possible, of course, if every page component consists exclusively of javascript. But in Da3SH, rich components aren't made out of javascript - they're just JSON-formatted data.  
 
-## Improving on Component-based architecture
-In the context of building a conventional website, frameworks may represent exasperating over-engineering. But we shouldn't seek to throw the baby out with the bathwater: components remain entirely useful.
+## Improving on 2010s-style Component-based architecture
+Outside building complex web-apps, frameworks usually represent exasperating over-engineering.
+
+But there's no need to throw the baby out with the bathwater: reusable, customisable components remain entirely useful in the context of building a conventional website no less than in a 100% JS Single Page Application (SPA).
 
 The disadvantages of 2010s web-development approaches include:
 
