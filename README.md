@@ -3,7 +3,7 @@
 
 ## What is DaNIS³H?
 
-**DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG Vectors & **H**TML*) is component-based web architecture.
+**DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) is component-based web architecture.
 
 But, unlike most other component-based web architecture approaches, **DaNIS³H** takes code and encodes it as *data*.
 
