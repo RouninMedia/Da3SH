@@ -1,15 +1,15 @@
-# Da3SH
+# DaNIS³H
 *Rich Components for the Web. Free from Front-End Frameworks.*
 
-## What is Da3SH?
+## What is DaNIS³H?
 
-**Da3SH** (pronounced *dash*, despite the *3*) is component-based web architecture.
+**DaNIS³H** (pronounced *dash*, despite the *3*) is component-based web architecture.
 
-But, unlike most other component-based web architecture approaches, **Da3SH** takes code and encodes it as *data*.
+But, unlike most other component-based web architecture approaches, **DaNIS³H** takes code and encodes it as *data*.
 
-**Da3SH** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
+**DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **Da3SH Module**). Since the code is encoded as data, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
+Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Module**). Since the code is encoded as data, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
 
 This approach allows different front-end technologies to sit together collectively as front-end components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
@@ -61,7 +61,7 @@ And, in any case, who said we had to have one type of separation or the other? W
 
 That's not going to be possible, of course, *if* every page component is built exclusively out of javascript.
 
-But in **Da3SH**, rich components *aren't* made out of javascript - they're simply JSON-formatted *data*.
+But in **DaNIS³H**, rich components *aren't* made out of javascript - they're simply JSON-formatted *data*.
 
 That data can be automatically translated *by* any language *into* any language you like.
 
@@ -72,7 +72,7 @@ But there's no need to throw the baby out with the bathwater. Web-developers sho
 
 Reusable, customisable components remain entirely useful when building *a conventional content-based website* no less than when building an exclusively JS-based Single Page Application (SPA).
 
-**Da3SH** allows developers to write and deploy rich components without using or installing a framework at all.
+**DaNIS³H** allows developers to write and deploy rich components without using or installing a framework at all.
 
 We *can* have the best of both worlds:
 
@@ -89,14 +89,14 @@ What if *all* we want is a plain and simple HTML + CSS website with an occasiona
 
 ... *but* in building that website we want to be able to deploy shareable, reusable, easy-to-modify but pre-constructed building blocks within that zero-build-process environment-of-simplicity?
 
-That's **Da3SH**.
+That's **DaNIS³H**.
 
 ______
 
 ## Wait a second... don't WebComponents already exist?
 Yes. Since late 2018, cross-browser-compatible **WebComponents** *do* exist.
 
-The difference between **WebComponents** and **Da3SH Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
+The difference between **WebComponents** and **DaNIS³H Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
 
 *For an eloquent and articulate discussion regarding the importance of primitive components, see:*
 
@@ -104,4 +104,4 @@ The difference between **WebComponents** and **Da3SH Modules** is that the forme
 
 Apart from anything else, **WebComponents** will not work in javascript-disabled browsers.
 
-In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **Da3SH** will even allow developers to build javascript-free websites.
+In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **DaNIS³H** will even allow developers to build javascript-free websites.
