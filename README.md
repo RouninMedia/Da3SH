@@ -9,7 +9,7 @@ But, unlike most other component-based web architecture approaches, **Da3SH** ta
 
 **Da3SH** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen via *any* scripting language on the server-side or on the front-end / client-side.
+Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
 
 This approach allows different front-end technologies to sit together collectively as front-end components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
