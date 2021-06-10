@@ -15,7 +15,8 @@ This approach allows different front-end technologies to sit together collective
 
 And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
-## Component-based Architecture is good. But it's even better when it's no longer tied to a single scripting language.
+## Component-based Architecture is good.
+### *But it's even better when it's no longer tied to a single scripting language.*
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
 But. As a core element of Javascript-first frameworks, 2010s-style component-based web architecture has heralded the unwelcome return of *code-nesting*.
@@ -49,25 +50,25 @@ Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structur
     
 And, in any case, who said we had to have one or the other? Why can't a page be separated into page components and each page component be separated into technologies? 
 
-That's not going to be possible, of course, if every page component is built exclusively out of javascript.
+That's not going to be possible, of course, *if* every page component is built exclusively out of javascript.
 
-But in **Da3SH**, rich components aren't made out of javascript - they're simply JSON-formatted data.
+But in **Da3SH**, rich components *aren't* made out of javascript - they're simply JSON-formatted data.
 
 That data can be automatically translated *by* any language *into* any language you like.
 
 ## Improving on 2010s-style Component-based architecture
-Outside building complex web-apps, reactive front-end frameworks can represent an exasperating level of over-engineering.
+Reactive front-end frameworks are hugely complex. Outside building sophisticated web-apps, such frameworks can represent an exasperating level of over-engineering.
 
-But there's no need to throw the baby out with the bathwater.
+But there's no need to throw the baby out with the bathwater. Web-developers shouldn't have to choose between frameworks-including-components and no-components-at-all.
 
-Reusable, customisable components remain entirely useful in the context of building *a conventional content-based website* no less than in a 100% JS Single Page Application (SPA).
+Reusable, customisable components remain entirely useful when building *a conventional content-based website* no less than when building a 100% JS Single Page Application (SPA).
 
-**Da3SH** allows developers to write and deploy without using or installing a framework at all.
+**Da3SH** allows developers to write and deploy rich components without using or installing a framework at all.
 
 We *can* have the best of both worlds:
 
  - a website or Single Page App (SPA) divided into separate rich components
- - each rich component divided into fully separated, static (or dynamically-generated) classic concerns:
+ - each rich component divided into fully separated, static (or dynamically-generated) language-based concerns:
 
    - *HTML-based structure*
    - *CSS-based presentation*
