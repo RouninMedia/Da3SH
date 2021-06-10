@@ -20,7 +20,7 @@ And - despite superficial first appearances - it turns out that *everything-as-J
 
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
-But. As a core element of Javascript-first frameworks, 2010s-style component-based web architecture has heralded the unwelcome return of *code-nesting*.
+But. As a core element of those JS-first frameworks, 2010s-style component-based web architecture has heralded the unwelcome return of *code-nesting*.
 
 *Code-nesting* refers to when one or more core web languages are nested within a different core web language.
 
