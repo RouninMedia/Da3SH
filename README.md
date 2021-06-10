@@ -47,52 +47,20 @@ Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structur
      </CENTER>
     </BODY>
     
-And, in any case, who said we had to have one or the other? Why can't a page be separated into page components and each page component be separated into technologies. That's not going to be possible, of course, if every page component consists exclusively of javascript. But in Da3SH, rich components aren't made out of javascript - they're just JSON-formatted data.  
+And, in any case, who said we had to have one or the other? Why can't a page be separated into page components and each page component be separated into technologies? 
+
+That's not going to be possible, of course, if every page component is built exclusively out of javascript.
+
+But in Da3SH, rich components aren't made out of javascript - they're just JSON-formatted data.
+
+That data can be automatically translated *by* any language *into* any language you like.
 
 ## Improving on 2010s-style Component-based architecture
-Outside building complex web-apps, frameworks usually represent exasperating over-engineering.
+Outside building complex web-apps, reactive front-end frameworks usually represent an exasperating level of over-engineering.
 
-But there's no need to throw the baby out with the bathwater: reusable, customisable components remain entirely useful in the context of building a conventional website no less than in a 100% JS Single Page Application (SPA).
+But there's no need to throw the baby out with the bathwater: reusable, customisable components remain entirely useful in the context of building *a conventional content-based website* no less than in a 100% JS Single Page Application (SPA).
 
-The disadvantages of 2010s web-development approaches include:
-
- - complex toolchain / boilerplate / build setups may be required to even create an environment which make code-nested files possible
- - code-nesting brings everything together, breaking the classic separation of concerns (*structure*, *presentation*, *behaviour*)
- - maintaining something like CSS in JS can quickly become a much larger headache than maintaining a standard, simple CSS stylesheet
- - additionally, future maintenance of dependencies and sub-dependencies (accounting for breaking versions etc.) can quickly become a nightmare (see: https://blog.jim-nielsen.com/2020/cheating-entropy-with-native-web-tech/)
-
-*But*, the advantages of component-based-architecture which arrived in the 2010s alongside all the above include:
-
- - keeping all HTML, JS and CSS code together in a single file (ie. *component-based* separation of concerns) enables portable, re-usable, extensible rich components
- - within components, it's easier to keep track of which classes and data-attributes need to be kept and which may be altered or removed
- - three
-
-## What makes Da3SH different?
-By contrast, instead of nesting code-within-code as the front-end frameworks do, Da3SH is formatted as JSON and ***regards all code as data***.
-
-
-By employing JSON as a "common data-serialization format", **Da3SH** allows for:
-
-- mono-formatting for code
-- single multi-technology files
-
-Most importantly, **Da3SH** retreats from code-nesting and moves back to clean separation of technologies.
-
-Instead, Da3SH offers code-as-data: a framework-agnostic, language-agnostic alternative to code-within-code.
-
-Consequently,
-
-Da3SH operates simultaneously in two conceptual dimensions:
-
-For the benefit of servers, browsers and technology specialists (the CSS designer who knows little or nothing about Javascript, or the Javascript developer who is unfamiliar with CSS) Da3SH maintains the conventional separation between *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour*.
-
-But, at the same time, for the benefit of web architects, prototypers, project managers and future maintainers, Da3SH *also* groups code by rich component. 
-
-Finally, in contrast to the JS-first frameworks, Da3SH can focus on the HTML-first rather than the JS-first web.
-
-A rich component in Da3SH includes separated "folders" - one for each of these categories - as well as a folder for *SVG-based vector graphics* and another for *JSON-based Data*. Da3SH also allows for named custom subfolders in any of these categories.
-
-**Da3SH** means that a rich web component containing any or all of Markup, Styles, Scripts, Data and even Vectors may be exported as **a consistently-formatted, single file** but **core code remains separated and is never nested within other core code**.
+Da3SH allows developers to write and deploy without using or installing a framework at all.
 
 We *can* have the best of both worlds:
 
@@ -109,5 +77,7 @@ What if *all* we want is a plain and simple HTML + CSS website with an occasiona
 
 That's **Da3SH**.
 
-## Don't WebComponents already exist?
+______
+
+## Wait a second... don't WebComponents already exist?
 WebComponents *do* exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. Further, WebComponents will not work in javascript-disabled browsers, whereas, if required, framework-agnostic, language-agnostic **Da3SH** allows developers to build javascript-free websites.
