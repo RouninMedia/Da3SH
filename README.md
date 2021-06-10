@@ -3,9 +3,11 @@
 
 ## What is Da3SH?
 
-Da3SH is component-based web architecture. But, unlike most other component-based web architecture approaches, Da3SH takes code and encodes it as data.
+**Da3SH** (pronounced *dash*, despite the *3*) is component-based web architecture.
 
-Da3SH serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
+But, unlike most other component-based web architecture approaches, **Da3SH** takes code and encodes it as data.
+
+**Da3SH**serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
 Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen on the server-side or on the front-end / client-side.
 
@@ -13,7 +15,7 @@ This approach allows different technologies to sit together collectively as comp
 
 And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
-## Component-based Architecture is good. But it doesn't *need* Frameworks.
+## Component-based Architecture is good. But it's even better when it's no longer tied to a single scripting language.
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
 But. As a core feature of the Javascript-first frameworks, 2010s-style component-based web architecture has tended to incorporate excessive, unnecessary baggage.
@@ -34,7 +36,7 @@ But in the 2010s code-nesting returned. This time the nest-language was Javascri
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but are dismissive of HTML and even less familiar with CSS). One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, presentation or enabling behaviour across the entire live web document.
+There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but can be dismissive of HTML and remain unfamiliar with CSS). One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, presentation or enabling behaviour across the entire live web document.
 
 From an overview perspective, there is something in this. But the fact remains: whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
@@ -51,16 +53,18 @@ And, in any case, who said we had to have one or the other? Why can't a page be 
 
 That's not going to be possible, of course, if every page component is built exclusively out of javascript.
 
-But in Da3SH, rich components aren't made out of javascript - they're just JSON-formatted data.
+But in **Da3SH**, rich components aren't made out of javascript - they're simply JSON-formatted data.
 
 That data can be automatically translated *by* any language *into* any language you like.
 
 ## Improving on 2010s-style Component-based architecture
-Outside building complex web-apps, reactive front-end frameworks usually represent an exasperating level of over-engineering.
+Outside building complex web-apps, reactive front-end frameworks can represent an exasperating level of over-engineering.
 
-But there's no need to throw the baby out with the bathwater: reusable, customisable components remain entirely useful in the context of building *a conventional content-based website* no less than in a 100% JS Single Page Application (SPA).
+But there's no need to throw the baby out with the bathwater.
 
-Da3SH allows developers to write and deploy without using or installing a framework at all.
+Reusable, customisable components remain entirely useful in the context of building *a conventional content-based website* no less than in a 100% JS Single Page Application (SPA).
+
+**Da3SH** allows developers to write and deploy without using or installing a framework at all.
 
 We *can* have the best of both worlds:
 
@@ -80,4 +84,10 @@ That's **Da3SH**.
 ______
 
 ## Wait a second... don't WebComponents already exist?
-WebComponents *do* exist but the difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. Further, WebComponents will not work in javascript-disabled browsers, whereas, if required, framework-agnostic, language-agnostic **Da3SH** allows developers to build javascript-free websites.
+Yes. Since late 2018, cross-browser-compatible **WebComponents** *do* exist.
+
+The difference between **WebComponents** and **Da3SH Modules** is that the former are intended to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
+
+Further, **WebComponents** will not work in javascript-disabled browsers.
+
+In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **Da3SH** will allow developers to build javascript-free websites.
