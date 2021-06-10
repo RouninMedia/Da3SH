@@ -100,4 +100,4 @@ The difference between **WebComponents** and **Da3SH Modules** is that the forme
 
 Further, **WebComponents** will not work in javascript-disabled browsers.
 
-In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **Da3SH** will allow developers to build javascript-free websites.
+In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **Da3SH** will even allow developers to build javascript-free websites.
