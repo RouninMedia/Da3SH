@@ -1,5 +1,5 @@
 # Da3SH
-*Rich Components for the Web. Free from Front-End Frameworks*
+*Rich Components for the Web. Free from Front-End Frameworks.*
 
 ## What is Da3SH?
 
