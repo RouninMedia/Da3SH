@@ -5,7 +5,7 @@
 
 **Da3SH** (pronounced *dash*, despite the *3*) is component-based web architecture.
 
-But, unlike most other component-based web architecture approaches, **Da3SH** takes code and encodes it as data.
+But, unlike most other component-based web architecture approaches, **Da3SH** takes code and encodes it as *data*.
 
 **Da3SH** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
