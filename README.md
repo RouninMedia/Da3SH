@@ -96,7 +96,7 @@ ______
 ## Wait a second... don't WebComponents already exist?
 Yes. Since late 2018, cross-browser-compatible **WebComponents** *do* exist.
 
-The difference between **WebComponents** and **Da3SH Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
+The difference between **WebComponents** and **Da3SH Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*. (For an eloquent and articulate discussion regarding the importance of *primitive components*, see: <a href="https://lea.verou.me/2020/09/the-failed-promise-of-web-components/" title="The Failed Promise of WebComponents by Lea Verou" target="_blank">https://lea.verou.me/2020/09/the-failed-promise-of-web-components/</a>.) 
 
 Further, **WebComponents** will not work in javascript-disabled browsers.
 
