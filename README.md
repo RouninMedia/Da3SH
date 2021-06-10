@@ -34,7 +34,7 @@ But in the 2010s code-nesting returned. This time the nest-language was Javascri
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
-There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but are less familiar with CSS). One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, presentation or enabling behaviour across the entire live web document.
+There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but are dismissive of HTML and even less familiar with CSS). One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, presentation or enabling behaviour across the entire live web document.
 
 From an overview perspective, there is something in this. But the fact remains: whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like *HTML-based structure*, *CSS-based presentation* and *JS-based behaviour* may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
