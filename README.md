@@ -7,20 +7,18 @@
 
 But, unlike most other component-based web architecture approaches, **Da3SH** takes code and encodes it as data.
 
-**Da3SH**serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
+**Da3SH** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen on the server-side or on the front-end / client-side.
+Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or Da3SH Module). Since the code is encoded as data, this can happen via *any* scripting language on the server-side or on the front-end / client-side.
 
-This approach allows different technologies to sit together collectively as components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
+This approach allows different front-end technologies to sit together collectively as front-end components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
 And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
 ## Component-based Architecture is good. But it's even better when it's no longer tied to a single scripting language.
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
-But. As a core feature of the Javascript-first frameworks, 2010s-style component-based web architecture has tended to incorporate excessive, unnecessary baggage.
-
-Most of all: the reintroduction of *code-nesting*.
+But. As a core element of Javascript-first frameworks, 2010s-style component-based web architecture has heralded the unwelcome return of *code-nesting*.
 
 *Code-nesting* refers to when one or more core web languages are nested within a different core web language.
 
@@ -29,7 +27,7 @@ In the late 1990s and early 2000s, code-nesting was common and the nest-language
  - *HTML-inlined JS*
  - *HTML-inlined CSS*
 
-Emphasis on a *Separation of Concerns*, *scalable CSS* and *Unobtrusive Javascript* led to an improved landscape by the late 2000s. 
+Emphasis on a *Separation of Concerns*, *scalable CSS* and *Unobtrusive Javascript* led to an improved landscape by the late 2000s. Semantic HTML Architects, CSS Designers and Javascript Engineers were each able to focus on their disciplines unhindered by external code.
 
 But in the 2010s code-nesting returned. This time the nest-language was Javascript:
 
