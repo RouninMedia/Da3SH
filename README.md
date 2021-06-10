@@ -16,7 +16,8 @@ This approach allows different front-end technologies to sit together collective
 And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
 ## Component-based Architecture is good.
-### *But it's even better when it's no longer tied to a single scripting language.*
+*But it's even better when it's no longer tied to a single scripting language.*
+
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
 But. As a core element of Javascript-first frameworks, 2010s-style component-based web architecture has heralded the unwelcome return of *code-nesting*.
