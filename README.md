@@ -93,10 +93,10 @@ That's **DaNIS³H**.
 
 ______
 
-## Wait a second... don't WebComponents already exist?
-Yes. Since late 2018, cross-browser-compatible **WebComponents** *do* exist.
+## Wait a second... don't native WebComponents already exist?
+Yes. Since late 2018, cross-browser-compatible, native **WebComponents** *do* exist.
 
-The difference between **WebComponents** and **DaNIS³H Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
+The difference between native **WebComponents** and native-like **DaNIS³H Modules** is that the former were designed to represent re-usable *primitive components*, while the latter represent re-usable *rich components*.
 
 *For an eloquent and articulate discussion regarding the importance of primitive components, see:*
 
