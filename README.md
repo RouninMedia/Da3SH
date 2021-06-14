@@ -15,7 +15,7 @@ This approach allows different front-end technologies to sit together collective
 
 And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
-## Component-based architecture is smart
+## Deploying Reusable Components is a smart approach to Web Architecture 
 *But it's even smarter when it's no longer tied to a single scripting language.*
 
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
