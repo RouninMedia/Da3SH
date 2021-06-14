@@ -7,6 +7,12 @@
 
 But, unlike most other component-based web architecture approaches, **DaNIS³H** takes code and encodes it as *data*.
 
+This means **DaNIS³H** is framework free.
+
+To use **DaNIS³H**, you don't need to spend weeks (or months) learning a framework and then discover in 3-4 years time that that's *all "old" now* and you have to repeat the process with a new, shiny framework.
+
+***DaNIS³H** does away with frameworks.* You write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** gives you back a single-file encapsulated module which you can then deploy on any website.
+
 **DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
 Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Module**). Since the code is encoded as data, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
