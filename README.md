@@ -5,7 +5,7 @@
 
 **DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) describes a component-based web architecture.
 
-But, unlike most other component-based web architecture approaches, **DaNIS³H** takes code and encodes it as *data*.
+But, unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and encodes it as *data*.
 
 This means **DaNIS³H** is framework free.
 
