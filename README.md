@@ -5,7 +5,7 @@
 
 **DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) describes a component-based web architecture.
 
-But, unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and encodes it as *data*.
+Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and encodes it as *data*.
 
 This means **DaNIS³H** is framework free.
 
@@ -17,11 +17,11 @@ You write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** giv
 
 **DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Module**). Since the code is encoded as data, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
+Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Module**). Since the code is encoded as *data*, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
 
 This approach allows different front-end technologies to sit together collectively as front-end components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
-And - despite superficial first appearances - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
+And - despite expectations - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
 ## Deploying Reusable Components is a smart approach to Web Architecture 
 *But it's even smarter when it's no longer tied to a single scripting language.*
@@ -48,7 +48,7 @@ There have been attempts to defend the return of code-nesting (mostly by develop
 
 One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, declaring presentation or enabling behaviour across the entire live web document.
 
-From an overview perspective, there *is* something in this. But the fact remains: whenever core code is nested inside other core code like this - where each uses a syntax radically distinct from the other - the process may result in a large, awkward, not-easily-separable mixed-mudball of code, in which concerns like:
+From an overview perspective, there *is* something in this. But the fact remains: whenever core code is nested inside other core code - and each respective language uses a syntax radically distinct from the other - the process may result in a large, unwieldy, not-easily-separable mixed-mudball of code, in which concerns like:
 
  - *HTML-based structure*
  - *CSS-based presentation*
@@ -56,7 +56,7 @@ From an overview perspective, there *is* something in this. But the fact remains
 
 may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
-Even HTML 3.2 (from 1996) is better than this. Because, while it mashes structure and presentation together, it does so using only one syntax:
+Arguably, even HTML 3.2 (from 1996) is better than this. Because, while it mashes structure and presentation together, it does so using only one syntax:
 
     <BODY BGCOLOR="#FFFFFF">
      <CENTER>
