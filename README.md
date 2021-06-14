@@ -11,7 +11,9 @@ This means **DaNIS³H** is framework free.
 
 To use **DaNIS³H**, you don't need to spend weeks (or months) learning a framework and then discover in 3-4 years time that that's *all "old" now* and you have to repeat the process with a new, shiny framework.
 
-***DaNIS³H** does away with frameworks.* You write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** gives you back a single-file encapsulated module which you can then deploy on any website.
+***DaNIS³H** does away with frameworks.*
+
+You write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** gives you back a single-file encapsulated module which you can then deploy on any website.
 
 **DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
 
