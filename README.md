@@ -5,13 +5,13 @@
 
 **DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) is an approach which enables component-based web architecture even outside JS-frameworks.
 
-Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and serialises it as JSON *data*.
+Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and serializes it as JSON *data*.
 
 This means **DaNIS³H** can be framework free.
 
 To use **DaNIS³H**, you don't need to spend weeks (or months) learning a framework and then discover in 3-4 years time that that's *all "old" now* and you have to repeat the process with a new, shiny framework.
 
-***DaNIS³H** essentially does away with frameworks.*
+If you want it to, ***DaNIS³H** essentially does away with frameworks.*
 
 You can write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** will give you back a single-file encapsulated module which you can then deploy on any website with a **DaNIS³H** interpreter.
 
@@ -21,14 +21,14 @@ Then, whenever needed, one or more core web language snippets can be unpacked fr
 
 This approach allows different front-end technologies to sit together collectively to represent a self-contained front-end component, but in such a way that the component is liberated from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
-And - despite expectations - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
+Despite what you might anticipate, it turns out that *everything-serialized-as-JSON* is quite different from *everything-included-in-JS*.
 
 ## Deploying Reusable Components is a smart approach to Web Architecture 
 *But it's even smarter when it's no longer tied to a single scripting language.*
 
 Component-based web architecture - which evolved in the 2010s thanks to the rise of the Front-End Reactive Frameworks - has carved out a well-deserved place amongst established web-architecture patterns.
 
-But. As a core element of those JS-first frameworks, 2010s-style component-based web architecture heralded the unwelcome return of *code-nesting*. Core web languages (HTML, CSS, JS, SVG) are inter-dependent but they have radically different syntaxes, handle separate responsibilities and live (conventionally) in separate files. Often they are developed by different professionals. They are *meant* to be separated.
+But. As a core element of those JS-first frameworks, 2010s-style component-based web architecture heralded the unwelcome return of *code-nesting*. Core web languages (HTML, CSS, JS, SVG) are inter-dependent but they have radically different syntaxes, handle separate responsibilities and live (conventionally) in separate files. Often they are developed by different professionals. We learned in the 2000s (rightly) that HTML, CSS and JS are *meant* to be separated.
 
 *Code-nesting* refers to when one or more core web languages are nested within a different core web language.
 
@@ -39,14 +39,20 @@ In the late 1990s and early 2000s, code-nesting was common and the nest-language
 
 Emphasis on a *Separation of Concerns*, *scalable CSS* and *Unobtrusive Javascript* led to an improved landscape by the late 2000s. Semantic HTML Architects, CSS Designers and Javascript Engineers were each able to focus on their disciplines unhindered by external code.
 
-But in the 2010s code-nesting returned. This time the nest-language was Javascript:
+But throughout the 2010s code-nesting increasingly returned. This time the nest-language was Javascript:
 
  - *JSX (HTML in JS)*
  - *CSS-in-JS*
 
 There have been attempts to defend the return of code-nesting (mostly by developers who understand Javascript but can be dismissive of HTML and remain unfamiliar with CSS).
 
-One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when the concerns to be separated each represent a *structured, presented, behaviour-oriented Page Component* rather than one of the technologies declaring structure, declaring presentation or enabling behaviour across the entire live web document.
+One prominent argument is that *Separation of Concerns* is a robust principle but one which makes more sense when each **concern** to be separated from the others represents:
+
+ - a *Page Component containing its own structure, presentation and behaviour*
+  
+ rather than:
+ 
+ - an entire technology either i) declaring structure, ii) declaring presentation or iii) enabling behaviour across the entire live web document.
 
 From an overview perspective, there *is* something in this. But the fact remains: whenever core code is nested inside other core code - and each respective language uses a syntax radically distinct from the other - the process may result in a large, unwieldy, not-easily-separable mixed-mudball of code, in which concerns like:
 
@@ -56,7 +62,7 @@ From an overview perspective, there *is* something in this. But the fact remains
 
 may be difficult to isolate and refactor separately without a suite of task-runners, compilers, transpilers etc. operating at build-time (and sometimes even at runtime).
 
-Arguably, even HTML 3.2 (from 1996) is better than this. Because, while it mashes structure and presentation together, it does so using only one syntax:
+Arguably, *even **HTML 3.2** (from 1996) is better than this*. Because, while it mashes structure and presentation together, it does so using only *one syntax*:
 
     <BODY BGCOLOR="#FFFFFF">
      <CENTER>
@@ -65,9 +71,9 @@ Arguably, even HTML 3.2 (from 1996) is better than this. Because, while it mashe
      </CENTER>
     </BODY>
     
-And, in any case, who said we had to have one type of separation or the other?
+In any case, who said we had to have one type of separation or the other?
 
-Why can't a page be separated into page components *and* each page component be separated into technologies? 
+Why can't a page be separated into page components *and* each of those page components separated into technologies? 
 
 That's not going to be possible, of course, *if* every page component is built exclusively out of javascript.
 
