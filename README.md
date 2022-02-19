@@ -3,23 +3,23 @@
 
 ## What is DaNIS³H?
 
-**DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) describes a component-based web architecture.
+**DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) is an approach which enables component-based web architecture even outside JS-frameworks.
 
 Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and encodes it as *data*.
 
-This means **DaNIS³H** is framework free.
+This means **DaNIS³H** can be framework free.
 
 To use **DaNIS³H**, you don't need to spend weeks (or months) learning a framework and then discover in 3-4 years time that that's *all "old" now* and you have to repeat the process with a new, shiny framework.
 
-***DaNIS³H** does away with frameworks.*
+***DaNIS³H** essentially does away with frameworks.*
 
-You write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** gives you back a single-file encapsulated module which you can then deploy on any website.
+You can write standard HTML, CSS, JavaScript, SVG (whatever...) and **DaNIS³H** will give you back a single-file encapsulated module which you can then deploy on any website with a **DaNIS³H** interpreter.
 
-**DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are stored together in a single piece of JSON-encoded data representing a single rich component.
+**DaNIS³H** serializes core web languages (HTML, CSS, Javascript, SVG, PHP etc.) as JSON. The serialized snippets are combined and stored together as a single piece of JSON-encoded data representing a single rich component.
 
-Whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Module**). Since the code is encoded as *data*, this can happen via *any* scripting language on the server-side *or* on the front-end / client-side.
+Then, whenever needed, one or more core web language snippets can be unpacked from that single piece of JSON (or **DaNIS³H Capsule**). Since the code within the capsule is encoded as *data*, *any* scripting language on the server-side *or* on the front-end / client-side can perform the unpacking.
 
-This approach allows different front-end technologies to sit together collectively as front-end components, but - crucially - it liberates those components from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
+This approach allows different front-end technologies to sit together collectively to represent a self-contained front-end component, but in such a way that the component is liberated from *everything-in-JS* Front-end Reactive Frameworks like ***Angular***, ***React***, ***Vue*** etc.
 
 And - despite expectations - it turns out that *everything-as-JSON* is quite different from *everything-in-JS*.
 
@@ -65,13 +65,15 @@ Arguably, even HTML 3.2 (from 1996) is better than this. Because, while it mashe
      </CENTER>
     </BODY>
     
-And, in any case, who said we had to have one type of separation or the other? Why can't a page be separated into page components *and* each page component be separated into technologies? 
+And, in any case, who said we had to have one type of separation or the other?
+
+Why can't a page be separated into page components *and* each page component be separated into technologies? 
 
 That's not going to be possible, of course, *if* every page component is built exclusively out of javascript.
 
 But in **DaNIS³H**, rich components *aren't* made out of javascript - they're simply JSON-formatted *data*.
 
-That data can be translated *by* any language (JS, PHP, Python, Ruby etc.) *into* whichever language is intended as the target (HTML, CSS, JS, SVG etc.).
+That data can be translated *by* any scripting language (JS, PHP, Python, Ruby etc.) *into* whichever language is intended as the target (HTML, CSS, JS, SVG etc.).
 
 ## Improving on 2010s-style Component-based architecture
 Reactive front-end frameworks are hugely complex. Outside building sophisticated web-apps, such frameworks can represent an exasperating level of over-engineering.
@@ -110,6 +112,6 @@ The difference between native **WebComponents** and native-like **DaNIS³H Modul
 
  - <a href="https://lea.verou.me/2020/09/the-failed-promise-of-web-components/" title="The Failed Promise of WebComponents by Lea Verou" target="_blank">https://lea.verou.me/2020/09/the-failed-promise-of-web-components/</a>.
 
-Apart from anything else, **WebComponents** will not work in javascript-disabled browsers.
+Apart from anything else, **WebComponents** will *not* work in javascript-disabled browsers.
 
-In contrast, if required, framework-agnostic, library-agnostic, language-agnostic **DaNIS³H** will even allow developers to build javascript-free websites.
+In huge contrast, **DaNIS³H** - being framework-agnostic, library-agnostic, language-agnostic - allows developers to build from components websites which are entirely javascript-free .
