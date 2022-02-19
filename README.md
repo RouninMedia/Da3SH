@@ -71,7 +71,7 @@ That's not going to be possible, of course, *if* every page component is built e
 
 But in **DaNIS³H**, rich components *aren't* made out of javascript - they're simply JSON-formatted *data*.
 
-That data can be automatically translated *by* any language *into* any language you like.
+That data can be translated *by* any language (JS, PHP, Python, Ruby etc.) *into* whichever language is intended as the target (HTML, CSS, JS, SVG etc.).
 
 ## Improving on 2010s-style Component-based architecture
 Reactive front-end frameworks are hugely complex. Outside building sophisticated web-apps, such frameworks can represent an exasperating level of over-engineering.
