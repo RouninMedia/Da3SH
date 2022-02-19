@@ -5,7 +5,7 @@
 
 **DaNIS³H** (***D**ata **a**nd **N**atively **I**mportable **S**tyles, **S**cripts, **S**VG & **H**TML*) is an approach which enables component-based web architecture even outside JS-frameworks.
 
-Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and encodes it as *data*.
+Unlike most other component-based approaches to web-architecture, **DaNIS³H** takes code and serialises it as JSON *data*.
 
 This means **DaNIS³H** can be framework free.
 
